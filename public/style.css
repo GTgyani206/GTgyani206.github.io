@@ -10,6 +10,7 @@ body {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  opacity: 40%;
 }
 
 .nav-item {
@@ -23,10 +24,6 @@ body {
 .row {
   height: 100vh;
   width: 100vb;
-}
-
-.cstmStl {
-  opacity: 55%;
 }
 
 h4+p {
@@ -49,4 +46,20 @@ img {
   left: 0 !important;
   width: 100% !important;
   z-index: 1000 !important;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around !important;
+  align-items: center;
+  margin: 2rem 0 4rem 0!important;
+}
+
+.footer {
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 90%;
+  text-align: center;
+  padding: 2rem;
 }
