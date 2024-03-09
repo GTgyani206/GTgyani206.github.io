@@ -2,7 +2,8 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 20rem;
+  padding-top: 2rem;
 }
 
 header {
@@ -36,4 +37,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+span {
+  position: relative;
+  left: 85%;
+  color: #007bff;
 }
