@@ -1,147 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume - Gyanendra Thakur</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <header>
-      <h1>GYANENDRA THAKUR</h1>
-      <p>(+91) 9794513345 • Lucknow, IN</p>
-      <p>
-        gyanendrathakur4135stella@gmail.com •
-        <a href="#" target="_blank"
-          ><i class="fa-brands fa-linkedin"></i> LinkedIn</a
-        >
-        •
-        <a href="#" target="_blank"
-          ><i class="fa-brands fa-github"></i> GitHub</a
-        >
-      </p>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gyanendra Thakur's CV</title>
+    <script src="https://kit.fontawesome.com/5e6b4661a3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #004f90;
+            --text-color: #333;
+            --light-gray: #666;
+            --border-color: #ccc;
+        }
 
-    <main>
-      <section>
-        <h2>SKILLS</h2>
-        <ul>
-          <li>Java</li>
-          <li>HTML, CSS, JavaScript, Bootstrap, Tailwind</li>
-          <li>GIT/GitHub, NODE Js, Express Js, React, MongoDB</li>
-        </ul>
-      </section>
-      <hr />
-      <br />
-      <section>
-        <h2>EDUCATION</h2>
-        <ul>
-          <li>
-            B.Tech. CSE Core | VIT Bhopal University GPA: 8.5 | (August 2023 -
-            Present)
-          </li>
-          <li>XII (ISC) | Stella Maris Inter College 92.0%| 2023</li>
-          <li>X (ICSE) | Stella Maris Inter College 98.5%| 2021</li>
-        </ul>
-      </section>
-      <hr />
-      <br />
-      <section>
-        <h2>CERTIFICATIONS</h2>
-        <ul>
-          <li>
-            MERN Stack Devloper (Certificate): Specialised in core Web –
-            Development
-            <ul>
-              <li>Technologies (Frontend): HTML, CSS, JavaScript, Bootstrap</li>
-              <li>Technologies (Backend): NodeJs, ExpressJs, React, MongoDB</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <br />
-      <section>
-        <h2>PROJECTS</h2>
-        <ul>
-          <li>
-            <h3>Spotify Clone (Frontend Project):</h3>
-            <p>
-              Created a fully responsive clone of Spotify Web using HTML, CSS,
-              JS and Google Fonts and Fontawsome icon pack.
-              <a href="#" target="_blank">Visit the site</a>
-            </p>
-          </li>
-          <li>
-            <h3>
-              Wanderlust: A traveling Website (Full Stack Project Ongoing):
-            </h3>
-            <p>
-              Created a fully responsive website which is based on travelling
-              website on which one can post any resort its price, location,
-              image. The website is capable of performing all CRUD operations
-              and is protected by faulty POST/GET request using Authentication
-              (both ejs and Joi).
-              <a href="#" target="_blank">Visit the site</a>.
-            </p>
-          </li>
-          <li>
-            <h3>IEEE Student Chapter VIT-Bhopal Website (Ongoing):</h3>
-            <p>
-              Creating a website for IEEE Student chapter under a IEEE Club
-              VIT-Bhopal.
-            </p>
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <br />
-      <section>
-        <h2>Experience</h2>
-        <ul>
-          <li>
-            <h3>Team Member | NASA Space Apps Challenge (Global Nominee)</h3>
-            <p>
-              Contributed in the 3-D modelle building using Blender3.6 and
-              BlenderKit. Furthermore we have been qualified as a Global
-              Nominee.
-            </p>
-            <p>Skills: 3D Modelling (Blender 3.6)</p>
-          </li>
-          <li>
-            <h3>Hacktoberfest'23 Contributor</h3>
-          </li>
-        </ul>
-      </section>
-      <hr />
-      <br />
-      <section>
-        <h2>ACHIEVEMENTS / HOBBIES</h2>
-        <ul>
-          <li>Participated in Hacktoberfest '23</li>
-          <li>Recieved Gold Trophy for Eureka Mathematics Competition</li>
-          <li>Recieved Academic excellence Award and Trophy for ISC 2023</li>
-          <li>Earned various certificates for various technical Skills</li>
-          <li>Have sketching and coding as hobby</li>
-        </ul>
-      </section>
-      <span
-        ><a
-          href="https://drive.google.com/file/d/1xq99_dsakSHQ-EWOc6alVUch88SJ80f3/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-          ><i class="fa-solid fa-download"></i> download resume</a
-        ></span
-      >
-    </main>
+        body {
+            font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-size: 12pt;
+            line-height: 1.5;
+            color: var(--text-color);
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
 
-    <script src="script.js"></script>
-  </body>
+        .container {
+            max-width: 8.5in;
+            width: 100%;
+            padding: 1.5cm;
+            box-sizing: border-box;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        a .fa-external-link-alt {
+            font-size: 0.8em;
+            position: relative;
+            top: -0.1em;
+            margin-left: 2px;
+        }
+        
+        strong {
+            font-weight: 700;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 0.3cm;
+        }
+
+        header h1 {
+            font-size: 24pt;
+            font-weight: bold;
+            margin: 0 0 0.3cm 0;
+            color: #000;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.5cm;
+            font-size: 11pt;
+        }
+
+        .contact-info a {
+            color: #000;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            color: var(--primary-color);
+        }
+
+        .contact-info i {
+            margin-right: 0.13cm;
+        }
+
+        /* Sections */
+        section {
+            margin-bottom: 0.3cm;
+        }
+
+        section h2 {
+            font-size: 1.3em;
+            font-weight: bold;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.1cm;
+            margin: 0.2cm 0 0.1cm 0;
+        }
+
+        /* Layouts */
+        .two-col-entry {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .two-col-entry .right-col {
+            text-align: right;
+            white-space: nowrap;
+            font-style: italic;
+            color: var(--light-gray);
+        }
+        
+        .right-col a {
+            font-style: normal;
+        }
+        
+        .right-col a i {
+            display: none; /* Hide external link icon for these specific links */
+        }
+        
+        .entry-title {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        
+        .entry-subtitle {
+            font-style: italic;
+            color: var(--light-gray);
+            margin-bottom: 0.1cm;
+        }
+        
+        .cgpa-line {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .skills-line {
+            margin-top: 0.1cm;
+        }
+
+        /* Lists */
+        ul.highlights {
+            list-style-type: '◦';
+            padding-left: 0.4cm;
+            margin: 0.1cm 0 0 0;
+        }
+        
+        ul.highlights li {
+            padding-left: 10px;
+            margin-bottom: 0.1cm;
+        }
+
+        /* Spacing utility */
+        .mb-2 {
+            margin-bottom: 0.2cm;
+        }
+        .mb-1 {
+            margin-bottom: 0.1cm;
+        }
+        
+        @media print {
+            body {
+                font-size: 9pt;
+            }
+            .container {
+                padding: 1cm;
+            }
+             a {
+                text-decoration: none;
+                color: #000;
+            }
+            .fa-external-link-alt {
+                display: none;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gyanendra Thakur</h1>
+            <div class="contact-info">
+                <a href="mailto:gyanendrathakur4135stella@gmail.com"><i class="far fa-envelope"></i>gyanendrathakur4135stella@gmail.com</a>
+                <a href="tel:+91-9369585017"><i class="fas fa-phone-alt"></i>9369585017</a>
+                <a href="https://portfolio-v2-n5kx.onrender.com/" target="_blank"><i class="fas fa-link"></i>portfolio</a>
+                <a href="https://linkedin.com/in/gyanendrathakur" target="_blank"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+                <a href="https://github.com/GTgyani206" target="_blank"><i class="fab fa-github"></i>GitHub</a>
+            </div>
+        </header>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>
+                I am a <strong>proactive and adaptable professional</strong> with strengths in <strong>leadership, teamwork, and problem solving</strong>. As IEEE <strong>Web Master</strong>, I led projects and managed responsibilities efficiently. <strong>Open-source contributions</strong> fostered collaboration, while <strong>hackathons</strong> refined creativity and resilience. <strong>Virtual internships</strong> reinforced discipline and time management in fast-paced environments.
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div class="two-col-entry">
+                <div class="left-col"><strong>Vellore Institute of Technology, Bhopal</strong></div>
+                <div class="right-col">August 2023 – Present</div>
+            </div>
+            <div class="cgpa-line">
+                <div><strong>CGPA:</strong> 8.51</div>
+                <div>B.Tech in Computer Science and Engineering</div>
+            </div>
+            <p class="skills-line">
+                <strong>Skills:</strong> NextJS, React, Python, JAVA, Javascript, Neo4J, MongoDB, Blender, GIT, GitHub, Node JS, GCP
+            </p>
+        </section>
+
+        <hr>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="entry mb-2">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">Technical Team Member and Web Master</div>
+                        <div class="entry-subtitle">IEEE Student Branch, VIT Bhopal</div>
+                    </div>
+                    <div class="right-col">
+                        <div>May 2024 – Present</div>
+                        <a href="https://drive.google.com/file/d/1FUb6hpKAf_-Nsw-jCItPoBWHcTGK68r2/view?usp=drive_link" target="_blank">offer letter <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>Developed the <strong>IEEE Student Branch website</strong> using <strong>React.js, GSAP, and Three.js</strong>, enhancing its digital presence.</li>
+                    <li>Led events and mentored juniors in <strong>web development</strong> and emerging technologies.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">Web Dev Intern</div>
+                        <div class="entry-subtitle">Codsoft and Oasis Infobyte</div>
+                    </div>
+                    <div class="right-col">
+                        <div>April 2024</div>
+                        <a href="https://drive.google.com/drive/folders/1iP9ELrSFSSmPmWUhXh3vJn7Dv679RAea?usp=drive_link" target="_blank">Link <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>Successfully completed <strong>two simultaneous internships</strong> at <strong>CodSoft</strong> and <strong>Oasis Infobyte</strong> in <strong>1.2 months</strong>.</li>
+                    <li>Delivered <strong>six projects</strong> (4 mini and 2 major), earning an <strong>Exceptional Performance Certificate</strong>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="entry mb-2">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">VORTEX-lang</div>
+                    </div>
+                    <div class="right-col">
+                        <a href="https://github.com/GTgyani206/VORTEX-lang" target="_blank">GitHub <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://vortex-lang.onrender.com/" target="_blank">Live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>Vortex is a modern, GPU-accelerated programming language designed for parallel computation and high-performance computing. It features both traditional CPU execution and innovative GPU-accelerated constructs.</li>
+                </ul>
+            </div>
+            <div class="entry mb-2">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">AGRIM Health Care</div>
+                    </div>
+                    <div class="right-col">
+                        <a href="https://github.com/GTgyani206/AGRIM-Health-Care" target="_blank">GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>A healthcare based model and chat bot system that uses the power of Graph rag and Open AI to give personalized health suggestions and predict diseases.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">Do Sakhi</div>
+                    </div>
+                    <div class="right-col">
+                        <a href="https://github.com/GTgyani206/Do-Sakhi" target="_blank">GitHub <i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://animegirl-bogy.onrender.com/" target="_blank">Live <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>A <strong>full-stack project</strong> using <strong>folklores</strong> to raise awareness in <strong>rural communities</strong>, especially women. It enables <strong>NGOs to connect</strong> via broadcasts and features <strong>AI-generated stories</strong> told by a <strong>lip-synced animated character</strong>.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr>
+        
+        <section id="hackathons">
+            <h2>Hackathons And Events</h2>
+            <div class="entry mb-2">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">JHU VIT HealthHack 2025</div>
+                    </div>
+                    <div class="right-col">
+                         <a href="https://github.com/sinaatalay/rendercv" target="_blank">GitHub <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>I participated in <strong>HealthHack '25</strong>, advancing <strong>two rounds</strong> with a <strong>personalized health bot</strong> that dynamically updates its knowledge using <strong>Graph RAG</strong>. We leveraged <strong>GPT-4.5</strong> and <strong>Neo4j GQL</strong> to deliver intelligent, context-aware health recommendations.</li>
+                    <li>Tools used: Python, Neo4j, GQL, Cypher query, Graph RAG, pre-trained LLM (Open AI)</li>
+                </ul>
+            </div>
+            <div class="entry mb-2">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">NASA Space Apps 2023</div>
+                    </div>
+                    <div class="right-col">
+                         <a href="https://drive.google.com/drive/folders/1uh_0NtqTLGCCK9Biztz8CXsqT0gZF2v8" target="_blank">Drive Link <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>We advanced past the <strong>zonal rounds</strong> as <strong>global nominees</strong> for <strong>NASA Space Apps</strong>, designing a <strong>habitable planet concept</strong> with scientific feasibility. Using <strong>Blender</strong>, we created <strong>stunning 3D visualizations</strong>, bringing our vision to life.</li>
+                    <li>Tools used: Blender</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <div class="two-col-entry">
+                    <div class="left-col">
+                        <div class="entry-title">Open Source Events</div>
+                    </div>
+                    <div class="right-col">
+                         <a href="https://github.com/GTgyani206/" target="_blank">GitHub Profile <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <ul class="highlights">
+                    <li>Contributed to <strong>Hacktoberfest '23 & '25</strong> and <strong>24 Pull Request</strong>, actively engaging in open-source development. Collaborated with <strong>Liquid Galaxy, Collabora Online, and MindsDB</strong>, making meaningful contributions across three organizations.</li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+</body>
 </html>
